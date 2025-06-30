@@ -40,7 +40,7 @@ function FrontPage() {
           Go to Login
         </button>
 
-        <button className="w-full bg-white text-red-700 font-semibold px-6 py-3 rounded-xl hover:bg-red-100 transition flex items-center justify-center gap-2">
+        <button className="w-full  text-red-700 font-semibold px-6 py-3 rounded-xl bg-white hover:bg-gray-200 transition flex items-center justify-center gap-2">
           <FileText className="w-5 h-5" />
           Pengajuan Angsuran UKT
         </button>
