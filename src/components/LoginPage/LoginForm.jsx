@@ -1,11 +1,11 @@
 import { useState } from "react";
-import { useNavigate } from "react-router-dom"; // Import useNavigate
+import { useNavigate } from "react-router-dom";
 import { Notyf } from "notyf";
 import "notyf/notyf.min.css";
 
 function LoginForm() {
-  const [nim, setNim] = useState("");
-  const [password, setPassword] = useState("");
+  const [nim, setNim] = useState("12345678");
+  const [password, setPassword] = useState("password123");
   const navigate = useNavigate();
 
   const notyf = new Notyf({

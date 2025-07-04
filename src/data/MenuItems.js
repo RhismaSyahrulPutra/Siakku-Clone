@@ -7,7 +7,6 @@ import {
   BookOpen,
   Mail,
   DollarSign,
-  GraduationCap,
   Award,
   Briefcase,
   CreditCard,
@@ -34,6 +33,7 @@ const menuItems = [
       { label: "PRS", path: "/rencana-studi/prs" },
       { label: "KRS", path: "/rencana-studi/krs" },
       { label: "Pesan", path: "/rencana-studi/pesan" },
+      { label: "Cuti Kuliah", path: "/rencana-studi/cuti" },
     ],
   },
   {
@@ -62,9 +62,15 @@ const menuItems = [
       { label: "Jadwal Sidang", path: "/perkuliahan/sidang" },
     ],
   },
-  { label: "Beasiswa", icon: GraduationCap, path: "/beasiswa" },
-  { label: "Prestasi", icon: Award, path: "/prestasi" },
-  { label: "Cuti Kuliah", icon: Briefcase, path: "/cuti" },
+  {
+    label: "Pencapaian",
+    icon: Award,
+    submenu: [
+      { label: "Beasiswa", path: "/pencapaian/beasiswa" },
+      { label: "Prestasi", path: "/pencapaian/prestasi" },
+    ],
+  },
+
   { label: "eKTM", icon: CreditCard, path: "/ektm" },
 ];
 
