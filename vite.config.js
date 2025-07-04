@@ -24,7 +24,7 @@ export default defineConfig({
         theme_color: "#ffffff",
         background_color: "#ffffff",
         display: "standalone",
-        start_url: "/",
+        start_url: "/Siakku-Clone/",
         icons: [
           {
             src: "pwa-192x192.png",
@@ -46,5 +46,5 @@ export default defineConfig({
       },
     }),
   ],
-  base: "/",
+  base: "/Siakku-Clone/",
 });
