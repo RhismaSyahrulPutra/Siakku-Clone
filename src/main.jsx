@@ -11,7 +11,7 @@ registerSW({
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/Siakku-Clone">
       <App />
     </BrowserRouter>
   </StrictMode>
